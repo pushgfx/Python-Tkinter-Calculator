@@ -138,6 +138,8 @@ class Calculator:
 	# Special math functions
 	def sqroot(self):
 		return sqrt(self.num1)
+    def exponent(self):
+        return pow(self.num1, self.num2)
 
 # Main Tkinter object/window
 root = Tk()
