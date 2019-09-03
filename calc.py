@@ -2,8 +2,8 @@ from tkinter import Tk, Label, Button, IntVar
 from math import sqrt
 
 class Calculator:
-	def __init__(self, master):
-		self.master = master
+    def __init__(self, master):
+        self.master = master
 
 		self.total = 0
 		self.op = False
