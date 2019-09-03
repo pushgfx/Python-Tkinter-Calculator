@@ -70,6 +70,7 @@ class Calculator:
 		self.num1 = 0
 		self.num2 = 0
 		self.total_label_text.set(self.total)
+
 	# Main algorithm for calculations
 	def calc_loop(self, arg):
 		# If clear button is pressed
@@ -137,8 +138,6 @@ class Calculator:
 	# Special math functions
 	def sqroot(self):
 		return sqrt(self.num1)
-
-
 
 # Main Tkinter object/window
 root = Tk()
